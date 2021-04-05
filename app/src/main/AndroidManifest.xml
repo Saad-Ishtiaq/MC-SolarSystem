@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Animation">
-        <activity android:name=".Sun"></activity>
+        <activity android:name=".Earth"></activity>
+        <activity android:name=".Venus" />
+        <activity android:name=".Mercury" />
+        <activity android:name=".Sun" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
